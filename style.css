@@ -39,12 +39,17 @@ a {
     padding: 40px;
     background-color: #1F2937;
 }
+.texts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
 .title {
     flex:1;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin-left: 60px;
 }
 #first {
     height: 360px;
